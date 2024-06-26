@@ -9,3 +9,8 @@ body {
   label {
     font-weight: bold; /* Define o peso da fonte como negrito para os rótulos */
   }
+
+  input[type="text"] {
+    padding: 5px; /* Adiciona preenchimento ao campo de entrada de texto */
+    margin: 5px 0; /* Adiciona uma margem superior e inferior ao campo de entrada de texto */
+  }
