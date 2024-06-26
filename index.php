@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>MEU CEP</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"> <!-- Inclui o arquivo CSS para estilização -->
 </head>
 <body> 
     <!-- Formulário para entrada do CEP -->
