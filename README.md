@@ -1,6 +1,6 @@
-# Meu CEP Projeto
+# Meu CEP Projeto (Resolução de Case)
 
-Este projeto é um aplicativo web simples que permite aos usuários inserir um CEP e obter informações relacionadas, como rua, bairro, cidade e estado, utilizando a API ViaCEP.
+Este projeto(resolução de um case) é um aplicativo web simples que permite aos usuários inserir um CEP e obter informações relacionadas, como rua, bairro, cidade e estado, utilizando a API ViaCEP.
 
 ## Tecnologias Utilizadas
 
@@ -25,7 +25,7 @@ Este projeto é um aplicativo web simples que permite aos usuários inserir um C
 2. Navegue até o diretório do projeto:
 
     ```sh
-    cd meu-cep-projeto
+    cd resolucao-case
     ```
 
 3. Certifique-se de que os arquivos `index.php`, `Address.php` e `styles.css` estão no diretório raiz do projeto.
