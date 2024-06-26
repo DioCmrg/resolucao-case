@@ -26,3 +26,10 @@ body {
   input[type="submit"]:hover {
     background-color: #45a049; /* Muda a cor de fundo do botão de envio quando o mouse está sobre ele */
   }
+
+.result {
+    margin-top: 20px; /* Adiciona uma margem superior à div de resultado */
+    padding: 10px; /* Adiciona preenchimento à div de resultado */
+    border: 1px solid #ddd; /* Define uma borda sólida de 1px na div de resultado */
+    background-color: #f9f9f9; /* Define a cor de fundo da div de resultado */
+}  
