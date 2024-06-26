@@ -14,3 +14,15 @@ body {
     padding: 5px; /* Adiciona preenchimento ao campo de entrada de texto */
     margin: 5px 0; /* Adiciona uma margem superior e inferior ao campo de entrada de texto */
   }
+
+  input[type="submit"] {
+    padding: 5px 10px; /* Adiciona preenchimento ao botão de envio */
+    background-color: #4CAF50; /* Define a cor de fundo do botão de envio */
+    color: white; /* Define a cor do texto do botão de envio como branco */
+    border: none; /* Remove a borda do botão de envio */
+    cursor: pointer; /* Muda o cursor para um ponteiro quando sobre o botão */
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049; /* Muda a cor de fundo do botão de envio quando o mouse está sobre ele */
+  }
