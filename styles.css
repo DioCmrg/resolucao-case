@@ -1,0 +1,11 @@
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão para o corpo da página */
+  }
+  
+  form {
+    margin-top: 20px; /* Adiciona uma margem superior ao formulário */
+  }
+  
+  label {
+    font-weight: bold; /* Define o peso da fonte como negrito para os rótulos */
+  }
