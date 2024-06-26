@@ -22,7 +22,13 @@
 
         // Verifica se os dados do endereço foram retornados e se o logradouro está definido
         if ($result && isset($result->logradouro)) {
-           
+            echo "<div class='result'>"; // Inicia a div para exibir os resultados
+            echo "<br><br>CEP Informado: {$cep}<br>"; // Exibe o CEP informado
+            echo "Rua: {$result->logradouro}<br>"; // Exibe a rua
+            echo "Bairro: {$result->bairro}<br>"; // Exibe o bairro
+            echo "Cidade: {$result->localidade}<br>"; // Exibe a cidade
+            echo "Estado: {$result->uf}<br>"; // Exibe o estado
+            echo "</div>";
         } else {
             // Caso os dados não sejam encontrados, exibe uma mensagem de erro
             
