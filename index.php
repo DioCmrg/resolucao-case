@@ -31,7 +31,10 @@
             echo "</div>";
         } else {
             // Caso os dados não sejam encontrados, exibe uma mensagem de erro
-            
+            echo "<div class='result'>";
+            echo "<br><br>CEP Informado: {$cep}<br>";
+            echo "Dados não encontrados.<br>";
+            echo "</div>";
         }
     }
     ?>
